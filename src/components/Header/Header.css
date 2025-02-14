@@ -1,0 +1,93 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos do Header */
+  .header {
+    background: #fff;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .header-container {
+    width: 85%;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+  }
+  
+  .logo a {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* Navegação */
+  .nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav ul li {
+    margin-left: 20px;
+  }
+  
+  .nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  /* Menu toggle (hamburger) */
+  .menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .menu-toggle .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 4px 0;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .nav {
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      background: #fff;
+      overflow: hidden;
+      max-height: 0;
+      transition: max-height 0.3s ease;
+    }
+    
+    .nav.open {
+      max-height: 300px; /* Altura suficiente para exibir os itens */
+    }
+    
+    .nav ul {
+      flex-direction: column;
+      padding: 10px 0;
+    }
+    
+    .nav ul li {
+      margin: 10px 0;
+      text-align: center;
+    }
+    
+    .menu-toggle {
+      display: flex;
+    }
+  }
+  

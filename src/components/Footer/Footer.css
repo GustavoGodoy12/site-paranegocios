@@ -1,0 +1,77 @@
+.footer {
+    background-color: #222;
+    color: #ddd;
+    padding: 40px 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .footer-container {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #444;
+    padding-bottom: 20px;
+  }
+  
+  .footer-logo a {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #007bff; /* mesma cor do botão "Ver soluções" */
+  }
+  
+  .footer-links {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    color: #ddd;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links a:hover {
+    color: #007bff;
+  }
+  
+  .footer-social {
+    display: flex;
+    gap: 15px;
+    font-size: 1.5rem;
+  }
+  
+  .footer-social a {
+    color: #ddd;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-social a:hover {
+    color: #007bff;
+  }
+  
+  .footer-bottom {
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 0.9rem;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+    
+    .footer-links {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  

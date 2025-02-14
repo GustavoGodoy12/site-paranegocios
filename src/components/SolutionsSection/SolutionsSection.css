@@ -1,0 +1,83 @@
+/* Estilização da Seção de Soluções */
+.solutions {
+  padding: 80px 20px;
+  background-color: #fff;
+}
+
+.solutions-container {
+  width: 85%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+/* Centraliza o título e o subtítulo */
+.solutions-container h2,
+.solutions-container .subtitle {
+  text-align: center;
+}
+
+.solutions h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  color: #555;
+}
+
+.solutions-boxes {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.solution-box {
+  flex: 1;
+  background: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  min-width: 280px; /* Garante que as caixinhas não encolham demais */
+  margin-bottom: 20px;
+}
+
+.solution-box .icon {
+  color: #007bff;
+  font-size: 3rem;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.solution-box h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.solution-box p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.solution-box ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.solution-box ul li {
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .solutions-boxes {
+    flex-direction: column;
+  }
+}
