@@ -7,7 +7,7 @@ const HeroSection = () => {
       <div className="container">
         <h1>Acelere seu Crescimento com Soluções Digitais Sob Medida</h1>
         <p>
-          Já ajudamos mais de 50 empresas a aumentarem sua eficiência em até 300% com nossas soluções personalizadas. Descubra como podemos transformar seu negócio.
+          Já ajudamos mais de 10 empresas a aumentarem sua eficiência com nossas soluções personalizadas. Descubra como podemos transformar seu negócio.
         </p>
         <div className="buttons">
           <a href="#solucoes" className="btn primary">Ver soluções</a>
