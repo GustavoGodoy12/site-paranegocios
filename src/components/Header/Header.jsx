@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Header.css';
+import logo from '../../assets/Logo preta sem fundo.png';
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -12,7 +13,9 @@ const Header = () => {
     <header className="header">
       <div className="header-container">
         <div className="logo">
-          <a href="/">site.paranegocio</a>
+          <a href="/">
+            <img src={logo} alt="Logo Paranegocio" />
+          </a>
         </div>
 
         <nav className={`nav ${menuOpen ? 'open' : ''}`}>
