@@ -1,6 +1,6 @@
 import React from 'react';
 import './AboutSection.css';
-import img from '../../assets/about-site.jpg';
+import img from '../../assets/Site PARANEGOCIO.png';
 
 const AboutSection = () => {
   return (
