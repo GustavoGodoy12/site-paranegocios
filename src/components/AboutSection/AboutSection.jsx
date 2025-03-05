@@ -1,6 +1,6 @@
 import React from 'react';
 import './AboutSection.css';
-import img from '../../assets/Site PARANEGOCIO.png';
+import img from '../../assets/about-site.jpg';
 
 const AboutSection = () => {
   return (
@@ -15,13 +15,13 @@ const AboutSection = () => {
           <div className="about-item">
             <h3>Experiência Comprovada</h3>
             <p>
-              Mais de 10 anos no mercado desenvolvendo soluções que já beneficiaram dezenas de empresas em diferentes setores.
+              Estamos no mercado desenvolvendo soluções que já beneficiaram dezenas de empresas em diferentes setores.
             </p>
           </div>
           <div className="about-item">
             <h3>Resultados Garantidos</h3>
             <p>
-              Nossos clientes relatam em média 300% de aumento em produtividade e 50% de redução em custos operacionais.
+              Nossos clientes relatam aumento em produtividade e 50% de redução em custos operacionais.
             </p>
           </div>
           <div className="about-item">
